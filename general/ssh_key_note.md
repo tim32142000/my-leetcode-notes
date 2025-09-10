@@ -1,0 +1,33 @@
+ssh folder path: ~/.ssh/  
+user/.ssh/  
+( bilibili Geekhour:  
+`ssh-keygen -t rsa -b 4096 # bilibili Geekhour`  
+)  
+gemini:  
+`ssh-keygen -t ed25519 -C "你的GitHub註冊Email"`  
+(將 "你的GitHub註冊Email" 替換成你註冊 GitHub 的 Email 地址。這個 Email 會儲存在公鑰中，幫助你識別。)
+
+## Not using default key name  
+
+`create ~/.ssh/config`  
+( bilibili Geekhour 指令：  
+`tail -5 config`  
+)
+```
+# github
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/your_key_name
+```
+
+(
+gemini's config: 
+```
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/你的新私鑰檔案名稱
+  IdentitiesOnly yes
+```  
+)
