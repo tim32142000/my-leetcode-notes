@@ -14,7 +14,6 @@ def get_id(r, c):
     return r * col + c
 ```
 
-
 ## 虛擬節點 (Virtual Nodes)：
 檢查第一列和最後一列是否連通。建立一個虛擬節點 TOP，連接所有第一列（row 0）的陸地。建立一個虛擬節點 BOTTOM，連接所有最後一列（row R-1）的陸地。  
 ```python
@@ -31,3 +30,5 @@ if r == 0:
 if r == row - 1:
     uf.union(curr_id, BOTTOM)
 ```
+
+[LeetCode 1970. Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross) Hard  
