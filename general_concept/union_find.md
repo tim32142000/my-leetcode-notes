@@ -8,6 +8,15 @@ def uf_find(x):
         x = parents[x]
     return x
 ```
+```python
+def uf_union(x, y):
+    root_x = uf_find(x)
+    root_y = uf_find(y)
+    
+    if root_x != root_y:
+        parents[root_y] = root_x
+```
+
 ## 將二維座標轉為一維 ID  
 ```python
 def get_id(r, c):
