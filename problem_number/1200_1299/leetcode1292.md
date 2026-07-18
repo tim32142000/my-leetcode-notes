@@ -5,7 +5,7 @@ https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than
 ## 解法
 時間複雜度：O(m x n)，需要聰明的檢查方式。  
 空間複雜度：O(m x n)。  
-預存一個 2-D 的 prefix sum 矩陣，數值是左或上方的所有元素和。再用排容原理快速計算選定範圍的正方形數值和。  
+預存一個 2-D 的 prefix sum 矩陣，數值是左方和上方的所有元素和。再用排容原理快速計算選定範圍的正方形數值和。  
 聰明的檢查方式：
 ```python
 ans = 0
