@@ -16,5 +16,5 @@
 
 <details>
 <summary>點擊查看程式碼</summary>
-...你的代碼...
+...你的程式碼...
 </details>
