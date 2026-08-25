@@ -1,6 +1,6 @@
 # My LeetCode Notes
 
-[ [中文版](./README.md) | **English version** ]
+[ [中文](./README.md) | **English** ]
 
 A personal LeetCode practice repository that records problem-solving approaches, the reasoning behind algorithm choices, and the corresponding code implementations — for easy review and progress tracking down the road.
 

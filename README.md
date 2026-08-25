@@ -1,6 +1,6 @@
 # My LeetCode Notes
 
-[ **中文版** | [English version](./README.en.md) ]
+[ **中文** | [English](./README.en.md) ]
 
 個人 LeetCode 刷題筆記庫，記錄解題思路、演算法選擇的判斷依據，以及對應的程式碼實作，方便日後複習與追蹤刷題進度。
 
