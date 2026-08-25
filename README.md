@@ -1,8 +1,10 @@
-# My leetcode notes
+# My LeetCode Notes
+
+[ **中文版** | [English version](./README.en.md) ]
 
 個人 LeetCode 刷題筆記庫，記錄解題思路、演算法選擇的判斷依據，以及對應的程式碼實作，方便日後複習與追蹤刷題進度。
 
-- **general_concept**：整理演算法或資料結構的核心觀念，例如滑動視窗、雙指標、動態規劃等的原理與適用時機。
+- **general_concept**：整理演算法或資料結構的觀念，例如滑動視窗、雙指標、動態規劃等的原理與適用時機。
 - **problem_number**：以題號為單位，記錄單一題目的解題筆記。
 - **tags**：以題目類型 / 標籤分類，方便針對特定主題複習。
 
