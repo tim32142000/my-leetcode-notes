@@ -2,7 +2,7 @@
 
 [ [中文](./README.md) | **English** ]
 
-A personal LeetCode practice repository that records problem-solving approaches, the reasoning behind algorithm choices, and the corresponding code implementations — for easy review and progress tracking down the road.
+A personal LeetCode practice repository that records problem-solving approaches, the reasoning behind algorithm choices — for easy review and progress tracking down the road.
 
 - **general_concept**: Notes on algorithm/data-structure concepts (e.g. sliding window, two pointers, dynamic programming) — their principles and when to apply them.
 - **problem_number**: Solving notes organized by problem number, one set of notes per problem.
