@@ -2,7 +2,7 @@
 
 ---
 
-### 還要查證的 Gemini 之詞
+Gemini:
 
 「狀態機（Finite State Machine）」的想法是破解 LeetCode 所有股票買賣題（Stock Series）的萬用金鑰。
 
